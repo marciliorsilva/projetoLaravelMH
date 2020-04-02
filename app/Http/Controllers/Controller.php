@@ -10,4 +10,14 @@ use Illuminate\Routing\Controller as BaseController;
 class Controller extends BaseController
 {
     use AuthorizesRequests, DispatchesJobs, ValidatesRequests;
+    
+    public function paginaInicial(){
+        $tituloPagina = "MH acesso :: Soluções em relógio de ponto e controle de acesso"; 
+        return view('index',['titulo' => $tituloPagina]);
+    }
+
+    public function contato(){
+        $tituloPagina = "MH acesso :: Contato";
+        return view('contato',['titulo' => $tituloPagina]);
+    }
 }
