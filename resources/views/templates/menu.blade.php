@@ -89,7 +89,7 @@
                             <ul class="nav navbar-nav">
                                 
                                 <li><a href="{{ url('/') }}">Pagina Inicial</a></li>
-                                <li><a href="services.html">Serviços</a></li>
+                                <li><a href="{{ url('/servicos') }}">Serviços</a></li>
                                 <li class="dropdown" id="categorias-mobile">
                                     <a href="#" class="dropdown-toggle" data-toggle="dropdown">Produtos <i
                                             class="fa fa-angle-down"></i></a>
@@ -103,7 +103,7 @@
                                         <li><a href="#">Software</a></li>
                                     </ul>
                                 </li>
-                                <li><a href="#">Empresa</a></li>
+                                <li><a href="{{ url('/empresa') }}">Empresa</a></li>
                                 <li><a href="{{ url('/contato') }}">Contato</a></li>
                                 
 

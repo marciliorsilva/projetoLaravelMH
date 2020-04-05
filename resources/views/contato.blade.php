@@ -7,10 +7,6 @@
             <div class="col-xs-12">
                <div class="banner-heading">
                   <h1 class="banner-title">Contato</h1>
-                  <ol class="breadcrumb">
-                     <li>Pagina Inicial</li>
-                     <li><a href="#">Contato</a></li>
-                  </ol>
                </div>
             </div><!-- Col end -->
          </div><!-- Row end -->

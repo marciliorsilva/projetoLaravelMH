@@ -16,3 +16,5 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', ['uses'=> 'Controller@paginaInicial']);
 Route::get('/contato', ['uses' => 'Controller@contato']);
+Route::get('/empresa',['uses' => 'Controller@empresa']);
+Route::get('/servicos',['uses'=>'Controller@servicos']);

@@ -20,4 +20,14 @@ class Controller extends BaseController
         $tituloPagina = "MH acesso :: Contato";
         return view('contato',['titulo' => $tituloPagina]);
     }
+
+    public function empresa(){
+        $tituloPagina = "MH acesso :: Empresa";
+        return view('empresa',['titulo' => $tituloPagina]);
+    } 
+
+    public function servicos(){
+        $tituloPagina = "MH acesso :: Serviços";
+        return view('servicos',['titulo' => $tituloPagina]);
+    }
 }

@@ -1571,14 +1571,16 @@ ul.navbar-nav>li.header-get-a-quote:hover>a:after {
 
 .ts-intro{
     padding-right: 20px;
+    text-align: justify;
 }
 
 .into-title{
-    font-weight: 300;
+    font-weight: bold;
     text-transform: uppercase;
-    font-size: 18px;
+    font-size: 22px;
     line-height: normal;
     margin: 0;
+    padding-bottom: 20px;
 }
 
 .into-sub-title{
@@ -2737,6 +2739,12 @@ img.testimonial-thumb {
     margin-bottom: 30px;
 }
 
+.main-container #sobre{
+    text-align: justify;
+}
+.ts-features{
+ margin-top:20px;  
+}
 
 /*-- Banner --*/
 
@@ -2753,7 +2761,7 @@ img.testimonial-thumb {
 .banner-title{
     color: #fff;
     text-transform: uppercase;
-    font-size: 58px;
+    font-size: 40px;
     font-weight: 900;
 }
 

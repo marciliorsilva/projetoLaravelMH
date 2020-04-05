@@ -77,8 +77,6 @@
 									<li><a href="service-single.html">Treinamento</a></li>
 									<li><a href="service-single.html">Apontamento</a></li>
 									<li><a href="service-single.html">Assistência</a></li>
-									<li><a href="service-single.html">Consultoria</a></li>
-									<li><a href="service-single.html">Venda/Compra</a></li>
 								</ul>
 							</div><!-- Col end -->
 							<!--
@@ -99,7 +97,8 @@
 						<div class="row">
 							<div class="col-xs-12 col-sm-12">
 								<div class="copyright-info text-center">
-									<span>Copyright © 2020 Todos os direitos reservados</span>
+									<span>Copyright © 2020 MH acesso - Todos os direitos reservados</span>
+									<p>CNPJ: 33.346.166/0001-13</p>
 								</div>
 							</div>
 						</div><!-- Row end -->
